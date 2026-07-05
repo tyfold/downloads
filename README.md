@@ -1,8 +1,8 @@
 # Tyfold — Downloads
 
-**Tyfold** is a desktop control room for many terminal sessions at once — each
-with its own LLM, and first-class support for Claude Code — with every session's
-status gathered into one dashboard.
+**Tyfold** is a desktop control room for many terminal sessions at once — plain
+shells or LLM CLIs, with first-class support for Claude Code — and every
+session's status gathered into one dashboard.
 
 This repository is the **official public download host** for Tyfold's release
 builds. Tyfold is a **commercial, closed-source** product; the source code is
