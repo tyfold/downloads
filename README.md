@@ -1,11 +1,11 @@
-# Tyfold — Downloads
+# Tyfold Downloads
 
-**Tyfold** is a desktop control room for many terminal sessions at once — plain
-shells or LLM CLIs, with first-class support for Claude Code — and every
-session's status gathered into one dashboard.
+**Tyfold** is a desktop control room for many terminal sessions at once:
+plain shells and LLM CLIs alike, with first-class support for Claude Code.
+Every session's status lands in one dashboard.
 
 This repository is the **official public download host** for Tyfold's release
-builds. Tyfold is a **commercial, closed-source** product; the source code is
+builds. Tyfold is a **commercial, closed-source** product. The source code is
 private. Only the built, installable packages are published here, as GitHub
 **[Releases](https://github.com/tyfold/downloads/releases)**.
 
@@ -28,10 +28,10 @@ sha256sum -c SHA256SUMS
 > **Builds are published here at launch.** Until then this repository reserves
 > the download home; the release list may be empty.
 
-## Prerequisite — bring your own Claude Code
+## Prerequisite: bring your own Claude Code
 
 Tyfold drives your **own** local LLM CLI (today `claude`) under your **own**
-provider credentials — it does not host or resell a model, and your credentials
+provider credentials. It doesn't host or resell a model, and your credentials
 never leave your machine. Install and sign in to Claude Code separately before
 running Tyfold.
 
@@ -53,4 +53,4 @@ installing or using a build from this repository you agree to it.
 Tyfold is an independent, unaffiliated product. "Claude" and "Claude Code" are
 trademarks of Anthropic, PBC; Tyfold is not endorsed by Anthropic.
 
-Tyfold™ — © 2026
+Tyfold™ · © 2026
