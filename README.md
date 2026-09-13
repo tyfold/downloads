@@ -1,8 +1,8 @@
 # Tyfold Downloads
 
-**Tyfold** is a desktop control room for many terminal sessions at once:
-plain shells and LLM CLIs alike, with first-class support for Claude Code.
-Every session's status lands in one dashboard.
+**Tyfold** is an IDE for everything you run in a terminal. Every session gets
+its own pane: Claude Code, Codex CLI, opencode, a plain shell, whatever you run
+next.
 
 This repository is the **official public download host** for Tyfold's release
 builds. Tyfold is a **commercial, closed-source** product. The source code is
@@ -11,13 +11,13 @@ private. Only the built, installable packages are published here, as GitHub
 
 ## Download
 
-Linux-first today (macOS / Windows later). Grab the package for your distro from
-the **[latest release](https://github.com/tyfold/downloads/releases/latest)**:
+Linux today. macOS and Windows next. Grab the package for your distro from the
+**[latest release](https://github.com/tyfold/downloads/releases/latest)**:
 
 | Platform | Package |
 | --- | --- |
-| Fedora / RHEL | `Tyfold-x86_64.rpm` |
-| Debian / Ubuntu | `Tyfold-amd64.deb` |
+| Fedora / RHEL | `Tyfold-<version>-x86_64.rpm` |
+| Debian / Ubuntu | `Tyfold-<version>-amd64.deb` |
 
 Each release also publishes a `SHA256SUMS` file so you can verify your download:
 
@@ -25,15 +25,12 @@ Each release also publishes a `SHA256SUMS` file so you can verify your download:
 sha256sum -c SHA256SUMS
 ```
 
-> **Builds are published here at launch.** Until then this repository reserves
-> the download home; the release list may be empty.
+## Prerequisite: bring your own CLI
 
-## Prerequisite: bring your own Claude Code
-
-Tyfold drives your **own** local LLM CLI (today `claude`) under your **own**
-provider credentials. It doesn't host or resell a model, and your credentials
-never leave your machine. Install and sign in to Claude Code separately before
-running Tyfold.
+Tyfold drives your **own** agent CLI (Claude Code, Codex or opencode) under your
+**own** provider account. It doesn't host or resell a model, and your
+credentials never leave your machine. Install and sign in to the CLI separately
+before running Tyfold.
 
 ## Licence & privacy
 
@@ -47,6 +44,7 @@ installing or using a build from this repository you agree to it.
 
 - **Website:** <https://tyfold.com>
 - **Releases:** <https://github.com/tyfold/downloads/releases>
+- **Questions and bug reports:** <https://github.com/tyfold/downloads/discussions>
 
 ---
 
