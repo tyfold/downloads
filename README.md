@@ -11,13 +11,19 @@ private. Only the built, installable packages are published here, as GitHub
 
 ## Download
 
-Linux today. macOS and Windows next. Grab the package for your distro from the
+Grab the package for your system from the
 **[latest release](https://github.com/tyfold/downloads/releases/latest)**:
 
 | Platform | Package |
 | --- | --- |
 | Fedora / RHEL | `Tyfold-<version>-x86_64.rpm` |
 | Debian / Ubuntu | `Tyfold-<version>-amd64.deb` |
+| Any Linux | `Tyfold-<version>-x86_64.AppImage` |
+
+Tyfold is developed and tested on Linux x86_64. The macOS build (Apple
+Silicon) and the Windows build (x64) are unsigned and experimental, published
+as pre-releases on the
+**[releases page](https://github.com/tyfold/downloads/releases)**.
 
 Each release also publishes a `SHA256SUMS` file so you can verify your download:
 
